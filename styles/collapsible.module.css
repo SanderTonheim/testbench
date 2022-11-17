@@ -1,0 +1,33 @@
+.toggle {
+	display: flex;
+	width: fit-content;
+	margin: 0%;
+	height: fit-content;
+	background-color: #fff;
+}
+
+.list_items {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.collapsible {
+	margin: 0 4rem;
+	padding: 2rem ;
+	background: rgba(255, 255, 255, 0.15);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px hsla(0, 0%, 0%, 0.1);
+	backdrop-filter: blur(2px);
+	border: 1px solid rgba(255, 255, 255, 0.69);
+}
+.collapsible .content_parent {
+	height: 0;
+	overflow: hidden;
+	transition: height ease-in 500ms;
+}
+
+.content {
+	padding: 3rem 0;
+}
