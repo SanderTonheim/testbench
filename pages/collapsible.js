@@ -9,7 +9,7 @@ export const Collapsible = ({ children, name }) => {
 	return (
 		<div className={s.collapsible}>
 			<div className={s.list_items}>
-				<h1>test</h1>
+				<h1>{name}</h1>
 				<button
 					className={s.toggle}
 					onClick={() => setIsOpen(!isOpen)}>

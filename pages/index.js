@@ -11,18 +11,18 @@ export default function Home() {
 			<Link href='/toggleproblem'>
 				<button>toggle spesifikk child ut ifra class name</button>
 			</Link>
-			<Collapsible>
+			<Collapsible name={'hva kan jeg gjøre her?'}>
 				<h1>Ole er en tiss</h1>
 				<h2>Men jeg er glad i han likevel {'<3'} </h2>
 			</Collapsible>
-			<Collapsible>
+			<Collapsible name={'hva kan jeg IKKE gjøre her?'}>
 				<h1>LOL BARE KØDDER</h1>
 			</Collapsible>
-			<Collapsible>
+			<Collapsible name={'Ole dør i dag siden han er syk'}>
 				<h1>NEIDA BARE KØDDER OM AT EG KØDDER</h1>
 			</Collapsible>
-			<Collapsible>
-				<h1>HJELP MEG</h1>
+			<Collapsible name={'tenker vi trekant?'}>
+				<h1>meg deg og dafina</h1>
 			</Collapsible>
 		</>
 	)
